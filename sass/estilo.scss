@@ -1,0 +1,24 @@
+@import "vars";
+@import "header";
+
+$colorPrincipal: aqua;
+$colorsecundario: red;
+$colorterciario: yellow;
+
+
+section{
+    background-color: $colorterciario;
+    h2 {
+        font: {
+            family: $fontPrincipal;
+            size: 30px;
+            weight: 700;
+        }
+    }
+    div {
+        border: $bordeNegro;
+        p {
+            color: $colorsecundario;
+        }
+    }
+}

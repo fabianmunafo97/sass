@@ -1,0 +1,47 @@
+.header {
+  background-color: aqua;
+}
+
+.header .header__logo {
+  width: 100px;
+}
+
+.header .header__menu {
+  display: inline;
+}
+
+.header .header__menu ul {
+  list-style: none;
+  display: inline;
+}
+
+.header .header__menu ul li {
+  padding: 10px;
+}
+
+.header .header__menu ul li a {
+  color: red;
+}
+
+.header .header__menu ul li a:hover {
+  color: green;
+}
+
+section {
+  background-color: yellow;
+}
+
+section h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+section div {
+  border: 2px solid black;
+}
+
+section div p {
+  color: red;
+}
+/*# sourceMappingURL=estilo.css.map */

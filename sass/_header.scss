@@ -1,0 +1,22 @@
+.header {
+    background-color: aqua;
+    & &__logo{
+        width: 100px;
+    }
+    & &__menu{
+        display: inline;
+        ul {
+            list-style: none;
+            display: inline;
+            li {
+                padding: 10px;
+                a{
+                    color: red;
+                    &:hover {
+                        color: green
+                    }
+                }
+            }
+        }
+    }
+}
